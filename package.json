@@ -1,6 +1,8 @@
 {
-  "name": "ai-cli",
+  "name": "@kazuito/ai-cli",
+  "version": "1.0.0",
   "module": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc"
   },

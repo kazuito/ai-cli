@@ -5,7 +5,7 @@ import { askGemini } from "./models/gemini";
 
 const cmd = new Command();
 
-cmd.name("ai-cli").version("0.0.1");
+cmd.name("ai-cli").version("1.0.0");
 
 cmd.action(() => {
   console.log("Welcome to AI CLI");
