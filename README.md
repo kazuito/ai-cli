@@ -2,6 +2,11 @@
 
 Ask AI in your terminal. Currently only supports Gemini by Google.
 
+## Prerequisites
+
+- Node.js v16+
+- A valid Gemini API key
+
 ## Quick start
 
 1. Install the npm package globally.
@@ -10,7 +15,7 @@ Ask AI in your terminal. Currently only supports Gemini by Google.
    npm i -g @kazuito/ai-cli
    ```
 
-2. Add an environment variable `GEMINI_API_KEY` in your terminal config file.
+2. Add an environment variable `GEMINI_API_KEY` in your terminal configuration file (e.g. `.zshrc`, `.bashrc`).
 
    Example for `zsh`:
 
@@ -36,3 +41,7 @@ Add an alias to make it easy to run the command!
 
 alias ai="ai-cli"
 ```
+
+## License
+
+This project is licensed under the MIT License.

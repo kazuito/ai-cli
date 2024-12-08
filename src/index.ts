@@ -5,17 +5,13 @@ import { askGemini } from "./models/gemini";
 
 const cmd = new Command();
 
-cmd.name("ai-cli").version("1.0.0");
+cmd.name("ai-cli").version("1.0.3");
 
-cmd.action(() => {
-  console.log("Welcome to AI CLI");
-});
-
-cmd.arguments("[question...]").action(async (q: string[]) => {
-  if (q.length === 0) {
-    console.error("Please provide a question");
+cmd.arguments("[prompt...]").action(async (prompts: string[]) => {
+  if (prompts.length === 0) {
+    console.error("Please provide a prompt");
   } else {
-    await askGemini(q.join(" "));
+    await askGemini(prompts.join(" "));
   }
 });
 
