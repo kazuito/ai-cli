@@ -12,7 +12,7 @@ Ask AI in your terminal. Currently only supports Gemini by Google.
 1. Install the npm package globally.
 
    ```
-   npm i -g @kazuito/ai-cli
+   npm i -g ai-cli
    ```
 
 2. Add an environment variable `GEMINI_API_KEY` in your terminal configuration file (e.g. `.zshrc`, `.bashrc`).

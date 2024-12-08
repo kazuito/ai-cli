@@ -1,6 +1,6 @@
 {
-  "name": "@kazuito/ai-cli",
-  "version": "1.0.4",
+  "name": "ai-cli",
+  "version": "1.0.5",
   "description": "Ask AI in your terminal.",
   "author": "Kazuma Ito",
   "license": "MIT",
