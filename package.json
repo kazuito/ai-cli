@@ -10,6 +10,10 @@
     "type": "git",
     "url": "https://github.com/kazuito/ai-cli.git"
   },
+  "keywords": [
+    "ai",
+    "cli"
+  ],
   "scripts": {
     "build": "npx tsc"
   },
